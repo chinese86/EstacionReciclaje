@@ -1,5 +1,5 @@
 package org.example;
-// SIN @SpringBootApplication
+
 
 public class EstacionPlantaApplication {
     public static void main(String[] args) throws InterruptedException {
