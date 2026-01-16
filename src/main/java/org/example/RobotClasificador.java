@@ -16,10 +16,10 @@ public class RobotClasificador implements Runnable {
         try {
             for (int i = 1; i <= numBotellas; i++) {
                 contenedor.depositar();
-                Thread.sleep(100);  // Tiempo de clasificación
-                System.out.println("Robot clasificó botella " + i);
+                Thread.sleep(100);  // Tiempo que tarda en clasificar
+                System.out.println("[ROBOT] Clasificando botella " + i + "...");
             }
-            System.out.println("Robot terminó.");
+            System.out.println("[ROBOT] Turno finalizado. Todas las botellas procesadas.");
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }

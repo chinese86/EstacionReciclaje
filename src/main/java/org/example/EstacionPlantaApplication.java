@@ -11,7 +11,7 @@ public class EstacionPlantaApplication {
         dron.start();
         robot.join();
         dron.interrupt();
-        System.out.println("Ejercicio completado.");
+        System.out.println("PGV => Fin de la simulación");
     }
 }
 
